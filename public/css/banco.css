@@ -1,0 +1,162 @@
+.content{
+    margin: 0;
+}
+
+.breadcrumb-link{
+    color: #A0A2A1;
+}
+
+.breadcrumb-link:hover{
+    color: #A0A2A1;
+    font-weight: bold;
+}
+
+a.breadcrumb-link:link{
+    text-decoration: none;    
+}
+
+.table{
+    margin-top: 10px;
+}
+
+#registros{
+    width: 100%;
+    background-color: #fff;
+    padding: 0 20px;
+}
+
+.botoes{
+    width: 130px;
+    float: right;
+}
+
+.btn-mais {
+    background-color: #8897AB;
+    color: #FFF;
+    width: 40px;
+    padding: 13px 15px;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+
+.btn-mais:link, .btn-mais:hover{
+    text-decoration: none;
+    color: #fff;
+}
+
+.tbl-cabecalho{
+    background-color: #8897AB;
+    color: #FFF;
+    width: 50%;
+}
+
+.tbl-perfil{
+    text-align: center;
+}
+
+.nome-tela{
+    text-align: left;
+}
+
+#label-cpf, #label-nome, #label-foto{
+    padding: 0;
+}
+
+.btn-cadastro{
+    float: right;
+    margin: 10px;
+}
+
+.btn-ordem{
+    float: right;
+    margin: 0 5px;
+}
+
+#form-acoes{
+    margin: 0 auto;
+}
+
+#cadastro{
+    background: #8897AB;
+    color: #fff;
+}
+
+#status{
+    margin-right: 2px;
+}
+
+#filtro{
+    height: 45px;
+}
+
+#filtrar{
+    width: 50px !important;
+}
+
+#filtro_avancado{
+    width: 50%;
+    margin: 20px auto;
+    /* display: none; */
+}
+
+#btn-filtrar{
+    text-transform: lowercase;
+    float: right;
+    margin: 10px;
+}
+
+.dropbtn {
+    font-size: 13;
+    width: 110px;
+    height: 35px;
+    background-color: #fff;
+    padding: 9px 50px;
+    border: none;
+    color: black
+}
+
+.dropdown {  
+    float: left;
+    border: none;
+    outline: none;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 110px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content .dropbtn {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+.dropdown-content .dropbtn:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.dropdown:hover {
+    background-color: #555;
+    color: white;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+#label-cor {
+    width:20px;
+    height:10px;
+    border-radius: 5px;
+}
